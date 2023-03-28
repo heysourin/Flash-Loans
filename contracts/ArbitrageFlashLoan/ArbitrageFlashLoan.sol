@@ -73,7 +73,6 @@ contract FlashLoanArbitrage is FlashLoanSimpleReceiverBase {
 
         return true;
     }
-
     function requestFlashLoan(address _token, uint256 _amount) public {
         address receiverAddress = address(this);
         address asset = _token;
